@@ -32,7 +32,8 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:gravity="center_vertical"
-            android:textAppearance="?android:textAppearance" />
+            android:textAppearance="?android:textAppearance"
+            android:text="Ver"/>
 
         <Button
             android:layout_width="wrap_content"
