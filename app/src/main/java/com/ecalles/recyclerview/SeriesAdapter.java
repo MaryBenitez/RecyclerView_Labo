@@ -36,8 +36,7 @@ public class SeriesAdapter extends RecyclerView.Adapter<SeriesAdapter.SeriesView
             @Override
             public void onClick(View view) {
                 Serie notificacion;
-                Toast.makeText(view.getContext(),series.get(position).getName(),Toast.LENGTH_SHORT).show();
-                
+                Toast.makeText(view.getContext(),series.get(position).getName()+""+series.get(position).getCaps()+""+series.get(position).getDesc(),Toast.LENGTH_SHORT).show();
             }
         });
     }
