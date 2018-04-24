@@ -33,13 +33,17 @@
             android:layout_marginRight="8dp"
             android:gravity="center_vertical"
             android:textAppearance="?android:textAppearance"
-            android:text="Ver"/>
+            android:text="nombre de la seriie"/>
 
         <Button
+            android:id="@+id/btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ver"/>
+            android:text="@string/ver" />
+
     </LinearLayout>
+
+
 
 
 

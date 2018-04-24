@@ -1,5 +1,7 @@
 package com.ecalles.recyclerview;
 
+import android.widget.Button;
+
 /**
  * Created by UCA on 18/04/2018.
  */
@@ -10,6 +12,7 @@ public class Serie {
     private String caps;
     private int img;
     private String desc;
+    private Button btn;
 
     public Serie(String name, String caps, int img, String desc){
         this.name = name;
@@ -46,4 +49,10 @@ public class Serie {
         this.desc = desc;
     }
 
+    public Button getBtn() {
+        return btn;
+    }
+    public void setBtn(Button btn) {
+        this.btn = btn;
+    }
 }
